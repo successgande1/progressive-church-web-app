@@ -453,10 +453,12 @@ hr.core-value {
 
 /*About The Church Container*/
 .about-church{
-  width:96%;
+  width:90%;
   padding: 1%;
   border-radius: 8px;
-  margin:2%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 5%;
   color: #98927C;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -591,13 +593,31 @@ hr.core-value {
 /*About the Church Read More*/
 #more {display: none;}
 
-/* About Us Page Instruction*/
+/* CONTACT US COMPONENTS*/
+#contact-us-title{
+  font-family:sans-serif;
+  font-size: 1rem;
+  color: goldenrod;
+  margin-top:1%;
+  text-align: center;
+}
+
+.contact-us-container{
+  width:100%;
+  margin:0;
+  background-color: rgb(242, 242, 242);
+  padding:5%;
+}
+
+
+
+/* About Us Page Instruction
 .read-m-aboutus{
   font-family: sans-serif;
   font-size:0.8rem;
   text-align:center;
   color:#333;
-}
+}*/
 
 .card{
   margin: 3% 3% 3% 3%;
