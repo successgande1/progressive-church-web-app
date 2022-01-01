@@ -1,0 +1,241 @@
+/***** OPEN ENDED MEDIA QUERY *****/
+@media only screen and (min-width: 1024px) {
+
+
+    .large-3{
+        width: 25%;
+    }
+
+    .header img{
+      margin-right: 0.3%;
+      width: 6vw;
+      height: auto;
+      float:left;
+    }
+
+    .header h1{
+      color:#fff;
+      font-weight: 600;
+      padding: 1.05vw;
+      font-size:2vw;
+      float: left;
+  }
+
+  .header li a{
+    padding: 2vw;
+  }
+    
+    header h2{
+        padding:.2rem 0 0 0;
+        font-size: 1.7rem;
+    }
+    
+    .read-m{
+      font-family: sans-serif;
+      font-size: 1rem;
+      text-align: center;
+      color:rgb(95, 143, 71);
+    }
+    
+    .welcome-msg{
+      font-size: 1.5rem;
+    }
+
+    .jumbotron-detail-family-church{
+        background: url('../images/extraordinary-ministers.jpeg') no-repeat fixed;
+      }
+      
+    .jumbotron-other{
+        background: url('../images/extraordinary-ministers.jpeg') no-repeat fixed;
+     }
+     
+    .jumbotron{
+          box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.1);
+          height: 70vh;
+          background-size: cover;
+          background-position: center;
+    }
+
+    main img{
+        width: 100%;
+        height: auto;
+    }
+    
+    main h1{
+        color: rgb(95, 143, 71);
+        font-style: italic;
+        margin: .5rem 0 .1rem 0;
+        font-size: 2rem;
+    }
+
+    .message{
+      font-family: Helvetica, sans-serif;
+      font-size: 1rem;
+      margin-bottom: 0.85rem;
+     
+    }
+
+/*Home Page Cards Rules*/
+.card-text{
+  font-family:Helvetica, sans-serif;
+  font-size: 1rem;
+
+}
+
+
+       /* About Us Page Flip Cards */
+       .flip-card {
+        background-color: transparent;
+        width: 30%;
+        margin: 1.5%;
+        float: left;
+        height: 12vw;
+        perspective: 1000px;
+      }
+
+/* Home Page Core Values Rules*/
+
+.core-value{
+  width: 100%;
+  float: left;
+  margin-left: 2%;
+  border: solid 0 rgb(189, 176, 176);
+  box-shadow:  10px 4 11px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  margin-bottom: 10%;
+  animation: shake-animation 4.72s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes shake-animation {
+  0% { transform:translate(0,0) }
+ 1.78571% { transform:translate(5px,0) }
+ 3.57143% { transform:translate(0,0) }
+ 5.35714% { transform:translate(5px,0) }
+ 7.14286% { transform:translate(0,0) }
+ 8.92857% { transform:translate(5px,0) }
+ 10.71429% { transform:translate(0,0) }
+ 100% { transform:translate(0,0) }
+}
+
+.core-value img{
+  width:100%;
+  height:13vw;
+}
+
+.core-value-heading{
+  font-size: 1.2em;
+    }
+
+.core-value h3{
+  font-size: 1.3rem;
+    }
+
+.card-heading{
+  color: rgb(95, 143, 71);
+  font-size: 1.1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight:600;
+  }
+
+
+  
+
+  /* Flip Images on Events*/
+  .flip-box {
+    background-color: transparent;
+    width: 30%;
+    height: 15vw;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin-bottom: 2%;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 15vw;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+
+  .flip-box-front img{
+    width:100%;
+    height: 15vw;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+    /* Footer Rules */
+    footer{
+        background-color: RGB(210, 180, 100);
+        font-size: 1.3rem;
+    }
+
+    footer h2{
+        font-style: italic;
+        text-transform: initial;
+        margin: 0.04rem 0 0;
+        font-size:1.4rem;
+        font-family: sans-serif;
+    }
+
+    footer a{
+      font-size: 1.1rem;
+      font-family:sans-serif;
+      text-decoration: none;
+      text-transform: none;
+      color:black;
+      font-weight: 450;
+    }
+
+    footer ul li{
+        list-style-type: none;
+    }
+
+    footer img{
+        float: center;
+        width:50px;
+        padding-right: 2px;
+    }
+
+
+    
+    
+
+
+} /*END OF MEDIA QUERY */
