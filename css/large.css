@@ -6,29 +6,57 @@
         width: 25%;
     }
 
-    .header img{
-      margin-right: 0.3%;
-      width: 6vw;
-      height: auto;
-      float:left;
-    }
-
-    .header h1{
-      color:#fff;
-      font-weight: 600;
-      padding: 1.05vw;
-      font-size:2vw;
-      float: left;
+    header {
+      background-color: rgba(100, 143, 70, 0.92);
+      position: fixed;
+      width: 100%;
+      z-index: 3;
+      padding-top: 0.2%;
+      height: 5vw;
   }
+
+  .header img {
+    margin-right: 0.1%;
+    width: 4.3vw;
+    height: auto;
+    float: left;
+    margin-top: 0.2%;
+}
+
+.header h1 {
+  color: #fff;
+  font-weight: 600;
+  margin-top: 1%;
+  font-size: 1.9vw;
+  float: left;
+}
 
   .header li a{
-    padding: 2vw;
+    padding-top: 15%;
   }
+
+  .header li a {
+    padding: 1.25vw;
+    font-size: 0.8em;
+    margin-top: 0.5%;
+    margin-top: 1%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  margin-top: 0.2%;
+}
     
     header h2{
         padding:.2rem 0 0 0;
         font-size: 1.7rem;
     }
+
+    .carousel-caption h3 {
+      padding: .5em;
+      font-size: 2rem;
+  }
     
     .read-m{
       font-family: sans-serif;
@@ -65,7 +93,7 @@
         color: rgb(95, 143, 71);
         font-style: italic;
         margin: .5rem 0 .1rem 0;
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 
     .message{
@@ -74,6 +102,99 @@
       margin-bottom: 0.85rem;
      
     }
+
+    .aboutus-title-text {
+      font-family: Lato, sans-serif;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-top: 0.3%;
+      color: rgb(4, 68, 4);
+      text-align: center;
+  }
+
+.about-church p {
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+  }
+
+  .vision-mission-title {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 1.5%;
+    color: black;
+}
+
+.vision-container {
+  width: 30%;
+  height: auto;
+  border: 10px solid goldenrod;
+  border-radius: 100%;
+  margin-top: 2.5%;
+  margin-left: 13%;
+  padding: 2%;
+  float: left;
+}
+
+.vision-title {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 0.5%;
+  color: green;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 40%;
+  float: left;
+  margin-top: 0.5%;
+  margin-left: 5%;
+}
+
+#contact-us-title {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: goldenrod;
+  margin-top: 1%;
+  text-align: center;
+}
+
+#btn-toggle {
+  width: 30%;
+  margin-top: 1%;
+  margin-right: 1%;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  font-weight: 450;
+  padding-left: 3%;
+}
+
+.special-services-prayer {
+  width: 40%;
+  border: 0.7px solid #e6dfdf;
+  border-radius: 8px;
+  padding: 0;
+  margin: 2% 5%;
+  float: left;
+}
+
+#special-services-title {
+  font-size: 1.4rem;
+  margin-top: 9%;
+}
+
+#sunday-service-day {
+  font-size: 1rem;
+}
 
 /*Home Page Cards Rules*/
 .card-text{
@@ -137,6 +258,17 @@
   font-family: 'Lato', sans-serif;
   font-weight:600;
   }
+
+  /* Worship Page*/
+  
+#worship-days-title {
+    font-size: 1.5rem;
+    font-family: 'Markazi Text', serif;
+    font-weight: 800;
+    text-align: center;
+    color: goldenrod;
+    margin-top: 3%;
+}
 
 
   
