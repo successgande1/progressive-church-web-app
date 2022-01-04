@@ -3,6 +3,15 @@
 
 @media only screen and (min-width: 768px) {
 
+  header {
+    background-color: rgba(100, 143, 70, 0.92);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    padding-top: 0.5%;
+    height: 7vw;
+}
+
   .header img{
     margin-right: 0.3%;
     width: 6vw;
@@ -13,9 +22,21 @@
   .header h1{
     color:#fff;
     font-weight: 600;
-    padding: 1.05vw;
+    padding: 0;
     font-size:1.9vw;
     float: left;
+    margin-top:2%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  margin-top: 2.2%;
+}
+
+.carousel-caption h3 {
+  padding: .5em;
+  font-size: 1.2rem;
 }
 
   .header li{
@@ -48,34 +69,54 @@
 /* Lead Pastor and Msg Container */
 
 .welcome-container{
-  width: 35%;
+  width: 96%;
   height:20%;
   border: 0.7px solid rgb(223, 220, 220);
   border-radius:10px;
   padding: 0.9%;
   margin-top:10%;
-  margin-left:1%;
+  margin-left:2%;
   float:left;
 }
 
 .core-value-container{
-  width: 60%;
+  width: 96%;
   height:20%;
   border: 0.7px solid rgb(223, 220, 220);
   border-radius:10px;
   padding: 0.7%;
-  margin-top:10%;
+  margin-top:1.5%;
   margin-bottom: 1%;
-  margin-left:1%;
+  margin-left:2%;
   float:left;
+}
+
+/*Home Page Cards Rules*/
+.card-text{
+  font-family:Helvetica, sans-serif;
+  font-size: 0.9rem;
+
 }
 
 /* Pastor Welcome Picture Container Rule*/
 .welcome-img{
   border-radius: 100%;
-  border: 6px solid #aaaaaa;
-  width: 10vw;
-  margin:5% 5% 1% 35%;
+  border: 6px solid goldenrod;
+  width: 15vw;
+  margin:5% 5% 1% 42%;
+}
+
+.welcome-msg-content{
+  width: 99%;
+  height:auto;
+  border: 0.7px solid rgb(223, 220, 220);
+  border-radius:7px;
+  background-color:rgb(223, 220, 220) ;
+  padding:2%;
+  margin-bottom: 2%;
+  margin-left: 0.5%;
+  float: left;
+
 }
 
 
@@ -188,11 +229,11 @@
 
 
     .about-church{
-      width:98%;
+      width:90%;
       padding: 1%;
       border-radius: 8px;
       margin-top: 2%;
-      margin-left: 1%;
+      margin-left: 5%;
       margin-bottom: 5%;
       color: #98927C;
       box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -204,7 +245,7 @@
       border: 0.7px solid #e7e4e4;
       border-radius: 5px;
       padding: 1%;
-      margin-top: 5%;
+      margin-top: 1%;
       margin-left:20%;
       background-color: white;
     }
@@ -215,8 +256,8 @@
   border: 0.7px solid #e7e4e4;
   border-radius:10px;
   padding: 4%;
-  margin-top:5%;
-  margin-bottom:5%;
+  margin-top:1%;
+  margin-bottom:1%;
   margin-left:0.5%;
   background-color: white;
 }
@@ -242,7 +283,7 @@
   padding: 0.9%;
   margin-top: 0.5%;
   margin-bottom: 5%;
-  margin-left: 2%;
+  margin-left: 0.5%;
   background-color: #e7e4e4;
   float: left;
 }
@@ -254,6 +295,7 @@
   border-radius: 100%;
   margin-top: 5%;
   margin-left: 6.2%;
+  margin-bottom: 3%;
   padding: 2%;
   float: left;
 }
@@ -273,7 +315,7 @@
   border-radius: 10px;
   padding: 1%;
   margin-top: 1.5%;
-  margin-bottom: 5%;
+  margin-bottom: 1.5%;
   margin-left: 0.5%;
   background-color: white;
   float: left;
@@ -316,6 +358,14 @@
 
 #sunday-service-day {
   font-size: 0.8rem;
+}
+
+.special-service-name-container {
+  width: 70%;
+  border: 0.7px solid #e1e0e0;
+  background-color: #e1e0e0;
+  margin-top: 5%;
+  margin-left: 15%;
 }
 
 .core-value-purity-container {
@@ -369,7 +419,7 @@
   height: auto;
   border: 0.7px solid #e7e4e4;
   border-radius:10px;
-  padding: 7% 1% 1%;
+  padding: 1.5% 1% 1%;
   margin: 2.5% 1%;
   background-color: white;
   float:left;
@@ -482,7 +532,7 @@
       }
 
       .card .content h2{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: bold;
       }
       .card .content .back{
