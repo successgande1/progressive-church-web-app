@@ -312,6 +312,7 @@ nav ul{
 .carousel-caption h3:first-child {
 	-webkit-animation-delay: 1s;
 	animation-delay: 1s;
+  padding: 0.6%;
 }
 .carousel-caption h3:nth-child(2) {
 	-webkit-animation-delay: 2s;
