@@ -214,6 +214,16 @@
         perspective: 1000px;
       }
 
+
+    /* Our Pastors Description */
+    .card .content .back .des {
+      font-size: 0.8rem;
+      font-family: sans-serif;
+      padding: 15px 0px;
+  }
+
+
+
 /* Home Page Core Values Rules*/
 
 .core-value{
@@ -268,6 +278,15 @@
     text-align: center;
     color: goldenrod;
     margin-top: 3%;
+}
+
+/* Worship Days Cards*/
+.card-media-body-heading {
+  display: block;
+  margin-top: 3%;
+  color: green;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 
